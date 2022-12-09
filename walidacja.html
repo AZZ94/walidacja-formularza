@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidacja</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form action="" id="newsletter-form">
+
+        <ul id="errors"></ul>
+
+        <label for="name">Imię i nazwisko:</label><br>
+        <input type="text" name="name" id="name" placeholder="Imię Nazwisko"><br> 
+
+        <label for="email">Adres e-mail:</label><br>
+        <input type="email" name="email" id="email" placeholder="example@example.com"><br>
+
+        <input type="checkbox" name="agree1" id="agree1">
+        <label for="agree1">Wyrażam zgodę 1</label><br>
+
+        <input type="checkbox" name="agree2" id="agree2">
+        <label for="agree2">Wyrażam zgodę 2</label><br>
+    
+        <input type="checkbox" name="allagree" id="allagree">
+        <label for="allagree">Wyrażam wszystkie zgody</label><br>
+        
+        <br>
+        <button type="submit" id="btn">Zapisz</button>
+
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

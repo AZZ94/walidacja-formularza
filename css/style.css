@@ -1,0 +1,55 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+form#newsletter-form {
+    background-image: url(../bg/wave-haikei.svg);
+    background-size: cover;
+    font-size: 16px;
+    color: rgb(235, 180, 1);
+    padding: 30px;
+    width: 60%;
+    min-height: 400px;
+}
+
+#errors {
+    color: rgb(230, 88, 22);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 15px;
+    text-align: left;
+    list-style: none;
+    width: 60%;
+}
+
+input, label {
+    display: inline-block;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 20px;
+    width: 60%;
+}
+
+button[type="submit"] {
+    background-color: rgb(235, 180, 1);
+    color: black;
+    text-transform: uppercase;
+    border-style: dotted;
+    margin-top: 10;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;   
+    
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(85, 85, 85); 
+    color: white;
+    border-color: white;
+}
